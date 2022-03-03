@@ -1,0 +1,22 @@
+body {
+    background-image: url("https://gallery.mailchimp.com/69be5c0d88f25178e387e5d6d/images/f114e6f2-4d44-46ac-8829-009a39817c3e.jpg");
+}
+
+#container {
+    width: 45%;
+    background: #FFFFFF;
+    padding: 10px;
+}
+
+.money in {
+    margin: 10px;
+}
+
+.display {
+    font-size: 400%;
+    line-height: 1%;
+}
+
+p {
+    font-size: 145%;
+}
