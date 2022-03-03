@@ -28,15 +28,19 @@
     <DebugSymbols>true</DebugSymbols>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="JavaScript.js">
+    <Content Include="Scripts\JavaScript.js">
       <SubType>Code</SubType>
     </Content>
-    <Content Include="Page1.html">
+    <Content Include="Pages\Page1.html">
       <SubType>Code</SubType>
     </Content>
     <Content Include="server.js" />
     <Content Include="package.json" />
     <Content Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Pages\" />
+    <Folder Include="Scripts\" />
   </ItemGroup>
   <Import Project="$(VSToolsPath)\Node.js Tools\Microsoft.NodejsToolsV2.targets" />
   <ProjectExtensions>
