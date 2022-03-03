@@ -1,11 +1,73 @@
 <!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
 <head>
-    <meta charset="utf-8" />
-    <title></title>
+    <title>HIGH OR LOW</title>
+    <link rel="stylesheet" href="css/pretty.css">
+    <script src="js/script.js"></script>
 </head>
 <body>
+    <center>
+        <div id="container">
 
+
+
+
+
+            <div class="Intro">
+                <h1>Higher Or Lower</h1>
+                <h2 style="color:grey;">Is the value of the iteger on top higher or lower than the second?</h2>
+                <p> <small>Numbers range from 1 to 11, each stake is $10 per play. </small> </p>
+                <p><small>You<strong> double your money </strong> if you guess correctly</small></p>
+                <br>
+
+            </div>
+
+
+
+
+            <div class="display">
+
+                <p id="rnc"></p>
+                <p id="rnc2"></p>
+
+            </div>
+
+
+            <div class="control panel">
+                <br><br><br>
+
+
+                <p id="story">You must deposit to play!</p>
+                <p id="status"></p>
+                <p id="status2"></p>
+
+                <br>
+
+                <div>
+                    <input value="Deal" type="button" onclick="DEAL()">
+                    <div>
+
+                        <br>
+
+                        <div class="buts">
+                            <input value="Lower" type="button" onclick="LOWER()"><span style="color:white;">___</span><input value="Even" type="button" onclick="EVEN()"><span style="color:white;">___</span><input value="Higher" type="button" onclick="HIGHER()">
+                        </div>
+                        <br><br>
+                        <div class="money in" align="center">
+
+                            $<input type="text" id="a" />
+                            <input value="Deposit" type="button" onclick="DEPOSIT()">
+
+                        </div>
+                        <br><br><br><br>
+
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </center>
 </body>
 </html>
