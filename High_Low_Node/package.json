@@ -1,0 +1,9 @@
+{
+  "name": "high_low_node",
+  "version": "0.0.0",
+  "description": "High_Low_Node",
+  "main": "server.js",
+  "author": {
+    "name": ""
+  }
+}

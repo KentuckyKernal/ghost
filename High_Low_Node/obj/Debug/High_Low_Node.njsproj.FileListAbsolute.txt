@@ -1,0 +1,3 @@
+C:\Users\rafte_2yhd31j\OneDrive\Desktop\Node Projects\Test\High_Low_Node\High_Low_Node\obj\Debug\High_Low_Node.njsproj.AssemblyReference.cache
+C:\Users\rafte_2yhd31j\OneDrive\Desktop\Node Projects\Test\High_Low_Node\High_Low_Node\obj\Debug\High_Low_Node.njsproj.CoreCompileInputs.cache
+C:\Users\rafte_2yhd31j\OneDrive\Desktop\Node Projects\Test\High_Low_Node\High_Low_Node\bin\Microsoft.NodejsTools.WebRole.dll
